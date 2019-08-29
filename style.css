@@ -38,7 +38,7 @@ hr{
     width: 350px;
     margin-right: 80%;
     border: 0;
-    height: 0; /* Firefox... */
+    height: 0;
     box-shadow: 0 0 3px 1px rgb(10, 9, 9);
 }
 

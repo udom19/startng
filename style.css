@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+  }
+
+
+body{
+    border: 5px solid white;
+    border-style: ridge;
+    border-radius: 15px 50px;
+    background-color: grey;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.title{
+    text-align: center;
+    margin-top: 5px;
+}
+
+.content{
+    margin-left:25%;
+    vertical-align: middle;
+    line-height: 20px;
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .content {
+        margin-left:5%;
+    }
+  }
+
+hr{
+    width: 350px;
+    margin-right: 80%;
+    border: 0;
+    height: 0; /* Firefox... */
+    box-shadow: 0 0 3px 1px rgb(10, 9, 9);
+}
+
+img{
+    border-radius: 10px;
+}
